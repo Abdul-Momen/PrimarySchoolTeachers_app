@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E5F6C8"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbHead"
+        android:background="#E5F6C8">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tbHead"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E5F6C8">
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/image1"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        app:civ_border_color="#000000"
+                        app:civ_border_width="3dp"
+                        app:civ_shadow="true" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvSchoolName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/school_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/registration"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />-->
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView5Id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Headmaster Name : "
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. X"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/tvMasterName"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="#000000" />
+
+            </LinearLayout>-->
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_centerInParent="true"
+                    app:cardBackgroundColor="#FEFFFD"
+                    app:cardCornerRadius="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView3Id"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:layout_marginLeft="8dp"
+                                android:gravity="center"
+                                android:text="@string/class_1"
+                                android:textSize="25sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        &lt;!&ndash;<LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView6_Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50sp"
+                                android:text="@string/total_boys_number"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/textView7Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/total_girls_number"
+                                android:textSize="16sp">
+
+                            </TextView>
+                        </LinearLayout>&ndash;&gt;
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="378dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#B8ECBC"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView8Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvBoys1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@id/textView8Id"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_toRightOf="@id/pvBoys1"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView9Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvGirls1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@id/textView9Id"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_toRightOf="@id/pvGirls1"
+                                android:layout_marginTop="8dp"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#FEFFFD"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView10Id"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:layout_marginLeft="8dp"
+                                android:gravity="center"
+                                android:text="@string/class_2"
+                                android:textSize="25sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        &lt;!&ndash;<LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView11Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50sp"
+                                android:text="@string/total_boys_number"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/textView12Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/total_girls_number"
+                                android:textSize="16sp">
+
+                            </TextView>
+                        </LinearLayout>&ndash;&gt;
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="382dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#B8ECBC"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView13Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvBoys2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@id/textView13Id"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_toRightOf="@id/pvBoys2"
+                                android:layout_marginTop="8dp"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView14Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvGirls2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                android:layout_toRightOf="@id/textView14Id"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_toRightOf="@id/pvGirls2"
+                                android:layout_marginTop="8dp"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#FEFFFD"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView15Id"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:layout_marginLeft="8dp"
+                                android:gravity="center"
+                                android:text="@string/class_3"
+                                android:textSize="25sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        &lt;!&ndash;<LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView16Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50sp"
+                                android:text="@string/total_boys_number"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/textView6Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/total_girls_number"
+                                android:textSize="16sp">
+
+                            </TextView>
+                        </LinearLayout>&ndash;&gt;
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="382dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#B8ECBC"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView17Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvBoys3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                android:layout_toRightOf="@id/textView17Id"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_toRightOf="@id/pvBoys3"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView18Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvGirls3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                android:layout_toRightOf="@+id/textView18Id"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_toRightOf="@+id/pvGirls3"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#FEFFFD"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView19Id"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:layout_marginLeft="8dp"
+                                android:gravity="center"
+                                android:text="@string/class_4"
+                                android:textSize="25sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        &lt;!&ndash;<LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView20Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50sp"
+                                android:text="@string/total_boys_number"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/textView21Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/total_girls_number"
+                                android:textSize="16sp">
+
+                            </TextView>
+                        </LinearLayout>&ndash;&gt;
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="382dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#B8ECBC"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView22Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvBoys4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                android:layout_toRightOf="@id/textView22Id"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_toRightOf="@+id/pvBoys4"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView23Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvGirls4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                android:layout_toRightOf="@id/textView23Id"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_toRightOf="@id/pvGirls4"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#FEFFFD"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView4Id"
+                                android:layout_width="match_parent"
+                                android:layout_height="53dp"
+                                android:layout_marginLeft="8dp"
+                                android:gravity="center"
+                                android:text="@string/class_5"
+                                android:textSize="25sp"
+                                android:textStyle="bold">
+
+                            </TextView>
+                        </LinearLayout>
+
+                        &lt;!&ndash; <LinearLayout
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:orientation="vertical">
+
+                             <TextView
+                                 android:id="@+id/textView24Id"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginLeft="50sp"
+                                 android:text="@string/total_boys_number"
+                                 android:textSize="16dp">
+
+                             </TextView>
+
+                             <TextView
+                                 android:id="@+id/textView25Id"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginLeft="50dp"
+                                 android:layout_marginTop="5dp"
+                                 android:text="@string/total_girls_number"
+                                 android:textSize="16sp">
+
+                             </TextView>
+                         </LinearLayout>&ndash;&gt;
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="382dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#B8ECBC"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView27Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvBoys5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                android:layout_toRightOf="@id/textView27Id"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp"
+                                android:text="jon"
+                                android:layout_toRightOf="@id/pvBoys5"
+                                android:textSize="20sp" />
+
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView28Id"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/present_student"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <com.goodiebag.pinview.Pinview
+                                android:id="@+id/pvGirls5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:pinHeight="30dp"
+                                android:layout_gravity="center"
+                                android:layout_toRightOf="@id/textView28Id"
+                                app:pinWidth="30dp"
+                                app:pinLength="3"
+                                app:hint="0"
+                                app:cursorVisible="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_toRightOf="@id/pvGirls5"
+                                android:text="jon"
+                                android:textSize="20sp" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addClassInfo"/>
+
+            <Button
+                android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="#009688"
+                android:padding="15dp"
+                android:text="Details"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                tools:ignore="HardcodedText">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

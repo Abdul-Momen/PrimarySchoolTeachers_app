@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#B8ECBC"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/textView8Id"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/present_student"
+
+
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+
+                    <com.goodiebag.pinview.Pinview
+                        android:id="@+id/pvBoys1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+
+
+                        app:hint="123"
+                        android:layout_weight="1"
+
+                        app:forceKeyboard="false"
+
+                        android:layout_gravity="center"
+
+                        app:inputType="number"
+
+
+                        app:pinLength="3"
+
+                        app:cursorVisible="true"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/textView9Id"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:text="@string/present_student_female"
+                        android:layout_gravity="center_vertical"
+
+
+                        android:textStyle="bold" />
+
+                    <com.goodiebag.pinview.Pinview
+                        android:id="@+id/pvGirls1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center"
+
+                        android:layout_weight="1"
+
+                        app:cursorVisible="true"
+                        app:forceKeyboard="false"
+                        app:hint="0"
+                        app:inputType="number"
+                        app:pinLength="3" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

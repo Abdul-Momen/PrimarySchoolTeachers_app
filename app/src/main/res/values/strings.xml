@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">PrimarySchoolTeachers_app</string>
+    <string name="school_name">Model Primary School</string>
+    <string name="registration">EIIN:</string>
+    <string name="headmaster_name">Headmaster Name : Anisul Islam</string>
+    <string name="class1">Headmaster Name : Anisul Islam</string>
+    <string name="total_boys_number">মোট ছাত্র সংখ্যা  : </string>
+    <string name="total_girls_number">মোট ছাত্রী সংখ্যা : </string>
+    <string name="class_1">প্রথম শ্রেণী</string>
+    <string name="class_2">দ্বিতীয় শ্রেণী</string>
+    <string name="class_3">তৃতীয় শ্রেণী</string>
+    <string name="class_4">চতুর্থ শ্রেণী</string>
+    <string name="class_5">পঞ্চম শ্রেণী</string>
+    <string name="present_student">উপস্থিত ছাত্র সংখ্যা :</string>
+    <string name="present_student_female">উপস্থিত ছাত্রী সংখ্যা:</string>
+
+
+    <string name="home">হোম</string>
+    <string name="log">লগ</string>
+    <string name="notice">নোটিশ</string>
+    <string name="profile">প্রোফাইল</string>
+
+    <string name="user_id">User ID/Email address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="search"> </string>
+    <string name="total_boys"> Total Boys Student</string>
+    <string name="total_b"> 5000</string>
+    <string name="total_girls"> Total Girls Student</string>
+    <string name="total_g"> 5000</string>
+    <string name="userid"> 5000</string>
+
+    <string name="confirm">আপনি নিশ্চিত?</string>
+    <string name="back">পিছনে যান</string>
+    <string name="add_info">তথ্য সংযুক্ত করুণ</string>
+    <string name="submit">সাবমিট</string>
+
+    <string name="teacher_information">স্কুল তথ্য</string>
+    <string name="phnNo"> মোবাইল</string>
+    <string name="email"> ই-মেইল</string>
+
+
+    <string name="warning_fillup">সম্পূর্ণ পূরণ করুন</string>
+    <string name="today_date">আজকের দিন</string>
+    <string name="jon">জন</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!---Add information-->
+
+</resources>

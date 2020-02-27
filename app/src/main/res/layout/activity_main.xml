@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pullToRefresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HomeFragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#E5F6C8"
+
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+   <com.google.android.material.bottomnavigation.BottomNavigationView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:background="#B8ECBC"
+       android:id="@+id/bottomNav"
+
+       app:labelVisibilityMode="labeled"
+       app:menu="@menu/bottom_navigation"/>
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@+id/bottomNav"
+       android:id="@+id/frameContainer"/>
+
+
+   <!--<androidx.appcompat.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/tbHead"
+       android:background="#E5F6C8">
+
+
+   </androidx.appcompat.widget.Toolbar>-->
+
+
+
+
+</RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
